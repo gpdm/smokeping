@@ -5,6 +5,7 @@ This is a derivate of **LinuxServer.io's Smokeping** docker image.
 This image is derived from the upstream image, and adds functionality for file change monitoring on the /config directory.
 Upon any detected file change (i.e. a file rewrite), the smokeping service would be restartet to read the config.
 
+
 ## motivation
 
 **Smokeping** does not provide a functionality to monitor for changes in its config files on its own.
